@@ -1,0 +1,18 @@
+frutas = ['Banana', 'Morango', 'Maçã', 'Uva']
+fruta_buscada = input("Qual fruta você deseja?: ")
+fruta_nao_encontrada: object = fruta_buscada not in frutas
+
+
+if fruta_buscada in frutas:
+    print("Sim, possuímos a fruta desejada.")
+else:
+    print('Desculpe, a {} não está na lista frutas'.format( fruta_buscada))
+
+    if fruta_buscada not in frutas:
+        print("Colocar na lista de compras")
+
+if (fruta_nao_encontrada):
+            print("Incluir na lista de compras! {}, fruta inserida".format(fruta_buscada))
+
+
+## Esse exercício foi simples e tranquilo. Somente para reforçar o conteúdo da aula
