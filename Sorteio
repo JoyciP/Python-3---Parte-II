@@ -1,0 +1,15 @@
+import random
+
+print("Qual o filme dessa noite?")
+sorteado = random.randrange(0,4)
+
+print(sorteado)
+
+if sorteado == 1:
+    print("John Wick.")
+elif sorteado == 2:
+    print("O diabo veste prada")
+elif sorteado == 3:
+    print("Constantine")
+else:
+    print("Senhor dos Aneis")
